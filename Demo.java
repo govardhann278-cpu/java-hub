@@ -1,18 +1,22 @@
-package hbadckeferf;
+package abcdndrjfd;
 
+public class Demo {
+	int a= 22;
+	int b =44;
+	void m1(int a, int b) {
+//		System.out.println("Hello world " + (c + d));
+		System.out.println("Hello world " + (a + b));
+		
+		System.out.println("Hello world " + (this.a +this.b));
+	}
+	
+	public static void main(String[] args) {
 
-interface Abc {
-    void m1();
+		Demo vv = new Demo();
+		vv.m1(2, 3);
+
+	}
 }
 
-class Demo implements Abc {
+	
 
-    public void m1() {
-        System.out.println("asdfasdfjlks");
-    }
-
-    public static void main(String[] args) {
-        Demo bb = new Demo();
-        bb.m1();
-    }
-}
